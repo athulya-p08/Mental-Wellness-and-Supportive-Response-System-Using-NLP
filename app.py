@@ -201,7 +201,7 @@ responses = {
 # -----------------------------
 st.markdown(
     """
-    <h1 style='text-align:center; color:#6c5ce7;'>
+    <h1 style='text-align:center; color:#2e1d5c;'>
     🧠 Mental Wellness Support App
     </h1>
     <p style='text-align:center; font-size:20px; color:#000000;'>
@@ -260,4 +260,5 @@ if st.button("Analyze your emotion"):
                 f"<div class='response-box'>• {line}</div>",
                 unsafe_allow_html=True
             )
+
 
