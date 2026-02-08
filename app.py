@@ -232,9 +232,9 @@ if st.button("Analyze your emotion"):
 
         # Color & emoji mapping
         color_map = {
-            "happiness": "#00C853", "sadness": "#2979FF", "stress": "#FFD600",
-            "anxiety": "#FF6D00", "anger": "#D50000", "fear": "#9C27B0",
-            "depression": "#6A1B9A", "loneliness": "#009688", "neutral": "#607D8B"
+            "happiness": "#BBEFD1", "sadness": "#ACC3EC", "stress": "#E9E0B4",
+            "anxiety": "#F0CDB3", "anger": "#EEB0B0", "fear": "#EAAFF4",
+            "depression": "#D0B2E3", "loneliness": "#B6E6E1", "neutral": "#B2D9ED"
         }
         emoji_map = {
             "happiness": "🥳", "sadness": "😢", "stress": "😓", "anxiety": "😰",
@@ -260,3 +260,4 @@ if st.button("Analyze your emotion"):
                 f"<div class='response-box'>• {line}</div>",
                 unsafe_allow_html=True
             )
+
